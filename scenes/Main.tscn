@@ -1,7 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://4oi84ya3n746"]
+[gd_scene load_steps=3 format=3 uid="uid://4oi84ya3n746"]
 
 [ext_resource type="PackedScene" uid="uid://c21paxgpjay3i" path="res://scenes/label.tscn" id="1_b2csw"]
+[ext_resource type="PackedScene" uid="uid://fyfrksubymgu" path="res://scenes/SpinningIcon/SpinningIcon.tscn" id="2_huxru"]
 
 [node name="Main" type="Node2D"]
 
 [node name="Label" parent="." instance=ExtResource("1_b2csw")]
+
+[node name="Sprite2D" parent="." instance=ExtResource("2_huxru")]
+position = Vector2(560, 324)

@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://fyfrksubymgu"]
+
+[ext_resource type="Texture2D" uid="uid://cwca8krysgtos" path="res://icon.svg" id="1_dsuba"]
+[ext_resource type="Script" path="res://scenes/SpinningIcon/scripts/spinningIcon.gd" id="2_g8bbs"]
+
+[node name="Sprite2D" type="Sprite2D"]
+texture = ExtResource("1_dsuba")
+script = ExtResource("2_g8bbs")
